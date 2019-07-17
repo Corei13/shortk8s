@@ -72,11 +72,12 @@ $ ktx dont-select-me
 
 ## zsh
 ```bash
-git clone git@github.com:Corei13/shortk8s.git ~/.oh-my-zsh/custom/plugins/shortk8s
-echo "plugins+=(git-aliases)" >> ~/.zshrc
+curl -s https://raw.githubusercontent.com/Corei13/shortk8s/master/shortk8s.sh >> ~/.zshrc
+source ~/.zshrc
 ```
 
 ## bash
 ```bash
-curl -s https://raw.githubusercontent.com/Corei13/shortk8s/master/shortk8s.sh >> ~/.bash_profile
+curl -s https://raw.githubusercontent.com/Corei13/shortk8s/master/shortk8s.sh >> ~/.bashrc
+source ~/.bashrc
 ```
